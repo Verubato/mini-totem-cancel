@@ -2,7 +2,7 @@
 ## Title: MiniTotemCancel
 ## Notes: Creates buttons for use in macros to cancel totems.
 ## Author: Verz
-## Version: 1.0.2
+## Version: 1.0.3
 ## IconTexture: Interface\AddOns\MiniTotemCancel\Icon.blp
 ## X-Curse-Project-ID: 1418690
 
