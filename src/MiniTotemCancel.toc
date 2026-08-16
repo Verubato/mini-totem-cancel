@@ -1,6 +1,7 @@
 ## Interface: 120100, 50504, 40402, 38002, 38000, 30405, 30300, 20506, 11509
 ## Title: MiniTotemCancel
 ## Notes: Creates buttons for use in macros to cancel totems.
+## Category: Mini
 ## Author: Verz
 ## Version: 1.0.5
 ## IconTexture: Interface\AddOns\MiniTotemCancel\Icon.blp
