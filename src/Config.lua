@@ -22,11 +22,11 @@ mini:WaitForAddonLoad(function()
 		return
 	end
 
-	-- No saved settings exist yet, so the panel is the title, the description, and the rule.
+	-- Nothing here is configurable, so the rule names what is under it.
 	local header = mini:PanelHeader({
 		Parent = panel,
 		Description = "Creates four buttons for use in macros to cancel your active totems.",
-		Divider = true,
+		Divider = "Info",
 	})
 
 	local caption = mini:TextBlock({

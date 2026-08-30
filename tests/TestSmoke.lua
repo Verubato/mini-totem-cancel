@@ -45,7 +45,8 @@ smoke.Run("MiniTotemCancel", {
 		fw.eq(context.Addon.Framework.CustomStyling, true, "custom styling on")
 		fw.eq(context.Addon.Framework.CustomStylingOverrides.Button, false, "stock buttons")
 		fw.truthy(HasText("Creates four buttons for use in macros to cancel your active totems."), "the subtitle under the panel title")
-		fw.truthy(HasDivider("SETTINGS"), "the settings section rule under the header")
+		fw.falsy(HasDivider("SETTINGS"), "no settings rule over a panel with nothing to set")
+		fw.truthy(HasDivider("INFO"), "the Info section rule under the header")
 		fw.truthy(
 			HasText(table.concat({
 				"/click TotemFrameTotem1 RightButton 1",
