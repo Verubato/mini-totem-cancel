@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.7
+
+- UI improvements.
+- Added a settings page showing the totem cancel macros.
+
 ## 1.0.6
 
 Added a Mini category so the addon groups with the other Mini addons in the addon list.
