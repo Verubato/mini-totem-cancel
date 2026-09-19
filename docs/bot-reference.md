@@ -1,6 +1,6 @@
 # MiniTotemCancel - bot reference
 
-Version 1.0.7. Interface versions: 120100, 50504, 40402, 38002, 38000,
+Version 1.0.7. Interface versions: 120100, 16001, 50504, 40402, 38002, 38000,
 30405, 30300, 20506, 11509 (retail plus the classic client lines). No
 saved variables. It has a settings panel showing the macros, but nothing
 on it is configurable.
